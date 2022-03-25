@@ -10,8 +10,10 @@ def countdown():
 
 def main():
     begin = time.time()
+
     for i in range(10):
         countdown()
+        
     print(time.time() - begin)
 
 
